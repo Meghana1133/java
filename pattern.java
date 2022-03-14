@@ -3,6 +3,7 @@ public class Patters {
 	public static void main(String[] args) {
 		
 		pattern(1);
+		add(4,5);
 	}
 	public static void pattern(int p ) {
 		for(int i=1;i<=5;i++) {
@@ -17,5 +18,9 @@ public class Patters {
 
 	}
 }
+public static void add(int a,int b) {
+		int c=a+b;
+		System.out.println(c);
+	}
 
 }
